@@ -132,36 +132,7 @@ text_embeddings = torch.cat([uncond_embeddings, text_embeddings])
 # image.save(img_path + ".png")
     
 
-###############################################################################
 
-from diffusers import AutoPipelineForImage2Image
-from diffusers.utils import load_image, make_image_grid
-
-pipeline = AutoPipelineForImage2Image.from_pretrained(
-    "kandinsky-community/kandinsky-2-2-decoder", use_safetensors=True # torch_dtype=torch.float16
-)
-pipeline.to("cpu")
-
-# pipeline.enable_model_cpu_offload()
-# remove following line if xFormers is not installed or you have PyTorch 2.0 or higher installed
-# pipeline.enable_xformers_memory_efficient_attention()
-
-url = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/diffusers/img2img-init.png"
-init_image = load_image(url)
-
-prompt = "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k"
-
-# pass prompt and image to pipeline
-image = pipeline(prompt, image=init_image, strength=0.8).images[0]
-
-
-make_image_grid([init_image, image], rows=1, cols=2)
-
-print("Saving Generated Image: " + "img2img" + ".png")
-image.save(output_dir + "img2img" + ".png")
-    
-
-    
 # latents = torch.randn(
 #     (batch_size, unet.config.in_channels, height // 8, width // 8),
 #     generator=generator,
