@@ -1,0 +1,51 @@
+{
+    "track_name": "Tiger Balm",
+    "version": 1.0,
+    "lyrics_data": [
+        {
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Tiger Balm",
+            "note": "Title Card",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "oh I find a, when I sleep a",
+            "aux_prompt": "rocky shore",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "melodies I, sow and reap of",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "nectar sweet and the honey sweeter",
+            "aux_prompt": "honey pours",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "from my lungs into the speaker",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        }
+    ]
+}
