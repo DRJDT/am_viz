@@ -13,10 +13,10 @@ import subprocess, os
 SAVE_RENDER = 1
 RENDER_STYLE = 'spec' # 'chroma' | 'spec'
 
-samples_dir = '/home/jd/Software/ames_ai_viz/inputs/tiger_balm/'
-audio_input_filename = '/home/jd/Software/ames_ai_viz/inputs/tiger_balm/track.mp3'
+samples_dir = 'inputs/tiger_balm/'
+audio_input_filename = 'inputs/tiger_balm/track.mp3'
 
-renders_dir = '/home/jd/Software/ames_ai_viz/outputs/tiger_balm/'
+renders_dir = 'outputs/tiger_balm/'
 render_num = 1
 while os.path.isfile(renders_dir + '/' + 'spectrogram_' + str(render_num)  + '.mp4'):
     render_num += 1
@@ -140,7 +140,7 @@ if  SAVE_RENDER:
     # Delete temp video and audio track files
     print('Cleaning up temp files ...')
     os.remove(audio_output_filename)
-    os.remove(video_output_filename)
+    # os.remove(video_output_filename)
 
     # Open rendered video in default system app
     subprocess.run(('xdg-open', av_output_filename))

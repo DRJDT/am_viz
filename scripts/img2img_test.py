@@ -9,11 +9,9 @@ import re
 
 ##########################################################################
 
-_sec = 5.0
-
 input_frame_dir = "inputs/tiger_balm/extracted_video_frames/"
 
-output_dir = "outputs/tiger_balm/generated_frame_images_4/"
+output_dir = "outputs/tiger_balm/generated_frame_images_5/"
 
 ##########################################################################
 
@@ -71,6 +69,8 @@ pipeline.unet = torch.compile(pipeline.unet, mode="reduce-overhead", fullgraph=T
 # # print("Saving Initial Image: " + output_dir + img_filename)
 # # init_image.save(output_dir + img_filename)
 
+# GEN5 PARAMS: num_inference_steps = 18, strength = 0.18
+
 text_prompt_weight = 1.0
 
 N_steps = 9
@@ -103,7 +103,7 @@ for frame_i in range(n_input_frames):
 
     for step_i,si in enumerate(steps):
 
-        image = pipeline(text_prompt, image=last_image, num_inference_steps = 10, strength = 0.2, guidance_scale=text_prompt_weight, generator=generator).images[0]
+        image = pipeline(text_prompt, image=last_image, num_inference_steps = 40, strength = 0.2, guidance_scale=text_prompt_weight, generator=generator).images[0]
 
         last_image = image
 
