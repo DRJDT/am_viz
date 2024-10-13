@@ -1,0 +1,521 @@
+{
+    "track_name": "Peacock",
+    "version": 1.0,
+    "lyrics_data": [
+        { 
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "peacock",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },        
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": " peacock strutting slowly",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "peacock strutting slowly saturated proud shimmering",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "peacocks strutting slowly in time saturated proud shimmering",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "light my match upon the bassline",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 25.0,
+            "duration": 5.0,
+            "lyrics_phrase": "wet my lips upon its groove",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 30.0,
+            "duration": 5.0,
+            "lyrics_phrase": "feelin pretty in the way I always know just when to move",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 35.0,
+            "duration": 5.0,
+            "lyrics_phrase": "jaded pearls upon my fingers",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 40.0,
+            "duration": 5.0,
+            "lyrics_phrase": "pearly words upon my tongue",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 45.0,
+            "duration": 5.0,
+            "lyrics_phrase": "speak them slow and let them linger",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 50.0,
+            "duration": 5.0,
+            "lyrics_phrase": "like the smoke from which is hung",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 55.0,
+            "duration": 5.0,
+            "lyrics_phrase": "your perfume a velvet snare clears your way as you draw near",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 60.0,
+            "duration": 5.0,
+            "lyrics_phrase": "gazing down I do not dare",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 65.0,
+            "duration": 5.0,
+            "lyrics_phrase": "only knowing what I hear",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 70.0,
+            "duration": 5.0,
+            "lyrics_phrase": "brush your gaze along my body, while I move like liquid sand",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 75.0,
+            "duration": 5.0,
+            "lyrics_phrase": "hoping you will find me godly",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 80.0,
+            "duration": 5.0,
+            "lyrics_phrase": "and approach me as I am",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 85.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lay it thick upon me Lola",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 90.0,
+            "duration": 5.0,
+            "lyrics_phrase": "thick and heavy like the rain",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 95.0,
+            "duration": 5.0,
+            "lyrics_phrase": "round and round I'm spinning Lola, hoping you will find my way",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 100.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I am pretty for you Lola",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 105.0,
+            "duration": 5.0,
+            "lyrics_phrase": "painted silks upon my skin",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 110.0,
+            "duration": 5.0,
+            "lyrics_phrase": "won't you let me get to know you?",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 115.0,
+            "duration": 5.0,
+            "lyrics_phrase": "and just groove the mess we're in",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 120.0,
+            "duration": 5.0,
+            "lyrics_phrase": "may we dance in ancient patterns, drawn like veins while we spin",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 125.0,
+            "duration": 5.0,
+            "lyrics_phrase": "retrograde you are my Saturn",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+
+        {
+            "timestamp": 130.0,
+            "duration": 5.0,
+            "lyrics_phrase": "never can I pull you in",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 135.0,
+            "duration": 5.0,
+            "lyrics_phrase": "flesh of gold and emerald spices, blush of crimson on my throat",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 140.0,
+            "duration": 5.0,
+            "lyrics_phrase": "rivers and folds meant to entice you",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 145.0,
+            "duration": 5.0,
+            "lyrics_phrase": "rivers and folds meant to entice you to discover what's below",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 150.0,
+            "duration": 5.0,
+            "lyrics_phrase": "wary you move a little closer",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 155.0,
+            "duration": 5.0,
+            "lyrics_phrase": "wary you move a little closer, keeping your distance while we turn",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 160.0,
+            "duration": 5.0,
+            "lyrics_phrase": "you are the judge of my composure, I am just here to make you purr",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 165.0,
+            "duration": 5.0,
+            "lyrics_phrase": "wild we whirl in mystic circles",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 170.0,
+            "duration": 5.0,
+            "lyrics_phrase": "connecting deep beneath our soles",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 175.0,
+            "duration": 5.0,
+            "lyrics_phrase": "you are the golden to my purple, I am a fragment of your whole",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 180.0,
+            "duration": 5.0,
+            "lyrics_phrase": "glitter of sequins in the moonlight",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 185.0,
+            "duration": 5.0,
+            "lyrics_phrase": "pretty we wander never do right",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 190.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I wear my heart just like my blue eyes, close to the fire",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 195.0,
+            "duration": 5.0,
+            "lyrics_phrase": "we drum the rhythm in the backseat",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 200.0,
+            "duration": 5.0,
+            "lyrics_phrase": "heavy breathing and a backbeat",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 205.0,
+            "duration": 5.0,
+            "lyrics_phrase": "sticky and steaming you can have me",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 210.0,
+            "duration": 5.0,
+            "lyrics_phrase": "sticky and steaming you can have me, however you like",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 215.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lay it thick upon me Lola, thick and heavy like the rain",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 220.0,
+            "duration": 5.0,
+            "lyrics_phrase": "round and round I'm spinning Lola",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 225.0,
+            "duration": 5.0,
+            "lyrics_phrase": "hoping you will come my way",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 230.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I am pretty for you Lola",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 235.0,
+            "duration": 5.0,
+            "lyrics_phrase": "painted silks upon my skin",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 240.0,
+            "duration": 5.0,
+            "lyrics_phrase": "won't you let me get to know you, and just groove the mess we're in",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 245.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "peacocks strutting slowly",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 250.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "peacocks strutting slowly in time saturated",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 255.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "peacocks strutting slowly in time saturated proud shimmering",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 260.0,
+            "duration": 5.0,
+            "lyrics_phrase": "getting peachy getting high, let it drip all down my thigh",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 265.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I said my piece, told my lie, now the truth is in the fire",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 270.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I watch it leap, watch it fly, fragments of a lullabye",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 275.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I never sleep because I find that it keeps the dream alive",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 280.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "peacock",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        }
+
+    ]
+}

@@ -13,141 +13,152 @@ import subprocess, os
 SAVE_RENDER = 1
 RENDER_STYLE = 'spec' # 'chroma' | 'spec'
 
-samples_dir = 'inputs/tiger_balm/'
-audio_input_filename = 'inputs/tiger_balm/track.mp3'
+##################################################################################
 
-renders_dir = 'outputs/tiger_balm/'
-render_num = 1
-while os.path.isfile(renders_dir + '/' + 'spectrogram_' + str(render_num)  + '.mp4'):
-    render_num += 1
+setlist = ['tiger_balm','peacock','groovin','unblinking_eye','hummin','walk_the_walk','the_governors_dead','cerulean_goodbye','stir_my_heart_awake']
 
-audio_output_filename = renders_dir + '/' +'spectrogram_track_' + str(render_num)  + '.wav'
-video_output_filename = renders_dir + '/' +'spectrogram_video_' + str(render_num) + '.mp4'
-av_output_filename = renders_dir + '/' + 'spectrogram_' + str(render_num)  + '.mp4'
+tracks_dir = "/home/jd/devel/am_viz/inputs/track_dirs/"
 
-fps = 2.0 # Rendered visualization framerate [default: 30]
-dt = 1.0/fps # Delay between frames in seconds.
-dt_ms = dt*1000.0; # Delay in milliseconds
+# track_name = "groovin"
 
-num_hops_per_frame = 64 #
+for track_name in setlist:
 
-sample_duration_sec_0 = 0 # [sec] Duration of track to sample, set = 0 to sample entire track
-sample_offset = 0.0          # [sec] Offset into track to begin sample
-sample_rate = 44100
+    track_dir = tracks_dir + track_name + '/'
 
-#################################################################################
+    # input_vid_file = track_dir + "source_vid_with_audio.mp4"
+    # output_frame_dir = track_dir + "extracted_video_frames/"
 
-if sample_duration_sec_0 > 0:
-    track_data, track_rate = librosa.load(audio_input_filename, mono=True, offset=sample_offset, duration=sample_duration_sec_0, sr=sample_rate)
-else:
-    track_data, track_rate = librosa.load(audio_input_filename, mono=True, offset=sample_offset, sr=sample_rate)
+    audio_input_filename = track_dir + "extracted_audio_track.mp3"
+    audio_output_filename = track_dir + 'temp_track.wav'
 
-num_samples = track_data.size
-track_duration_sec = num_samples/sample_rate
-num_frames = int(track_duration_sec*fps)
+    video_output_filename = track_dir + 'spectrogram_vid.mp4'
+    av_output_filename = track_dir + "spectrogram_vid_with_audio.mp4"
 
-samples_per_hop = int(num_samples/(num_hops_per_frame*num_frames)) 
+    ##################################################################################
 
-#################################################################################
+    fps = 2.0 # Rendered visualization framerate [default: 30]
+    dt = 1.0/fps # Delay between frames in seconds.
+    dt_ms = dt*1000.0; # Delay in milliseconds
 
-# fig, ax = plt.subplots(nrows=3, ncols=1, sharex=True)
+    num_hops_per_frame = 64 #
 
-# time_series_ax = ax[0]
-# spectrogram_ax = ax[1]
-# chroma_ax = ax[2]
+    sample_duration_sec_0 = 0 # [sec] Duration of track to sample, set = 0 to sample entire track
+    sample_offset = 0.0          # [sec] Offset into track to begin sample
+    sample_rate = 44100
 
-# librosa.display.waveshow(sample_data, sr=sample_rate, ax=time_series_ax, color='m')
-# spectrogram_full_img = librosa.display.specshow(sample_spectrogram_dB, y_axis='log', sr=sample_rate, x_axis='time', ax=spectrogram_ax, hop_length=sample_hop_length)
-# chromagram_full_img = librosa.display.specshow(sample_chroma, y_axis='chroma', sr=sample_rate, x_axis='time', ax=chroma_ax, hop_length=sample_hop_length)
+    #################################################################################
 
-# plt.rcParams.update({'axes.titlesize': 8,'axes.labelsize': 8})
+    if sample_duration_sec_0 > 0:
+        track_data, track_rate = librosa.load(audio_input_filename, mono=True, offset=sample_offset, duration=sample_duration_sec_0, sr=sample_rate)
+    else:
+        track_data, track_rate = librosa.load(audio_input_filename, mono=True, offset=sample_offset, sr=sample_rate)
 
-# time_series_ax.set_xlim([0,sample_duration_sec_0])
-# time_series_ax.set_facecolor('k')
+    num_samples = track_data.size
+    track_duration_sec = num_samples/sample_rate
+    num_frames = int(track_duration_sec*fps)
 
-# plt.show()
+    samples_per_hop = int(num_samples/(num_hops_per_frame*num_frames)) 
 
-# exit()
+    #################################################################################
 
-#################################################################################
+    # fig, ax = plt.subplots(nrows=3, ncols=1, sharex=True)
 
-px = 1/plt.rcParams['figure.dpi']  # pixel in inches
-# frame_fig, frame_ax = plt.subplots(figsize=(1920*px, 1080*px))
-frame_fig, frame_ax = plt.subplots(figsize=(512*px, 512*px))
+    # time_series_ax = ax[0]
+    # spectrogram_ax = ax[1]
+    # chroma_ax = ax[2]
 
-frame_fig.set_facecolor('black')
-axis_color = '#808080'
+    # librosa.display.waveshow(sample_data, sr=sample_rate, ax=time_series_ax, color='m')
+    # spectrogram_full_img = librosa.display.specshow(sample_spectrogram_dB, y_axis='log', sr=sample_rate, x_axis='time', ax=spectrogram_ax, hop_length=sample_hop_length)
+    # chromagram_full_img = librosa.display.specshow(sample_chroma, y_axis='chroma', sr=sample_rate, x_axis='time', ax=chroma_ax, hop_length=sample_hop_length)
 
-# frame_ax.yaxis.label.set_color(axis_color)
-# frame_ax.yaxis.label.set_fontsize('medium')
+    # plt.rcParams.update({'axes.titlesize': 8,'axes.labelsize': 8})
 
-# frame_ax.tick_params(axis='y', colors=axis_color, labelsize='medium', )
-# frame_ax.yaxis.grid(visible=True, color=axis_color, linewidth=0.5)
+    # time_series_ax.set_xlim([0,sample_duration_sec_0])
+    # time_series_ax.set_facecolor('k')
 
-#################
+    # plt.show()
 
-def compute_frame_spec(frame_i):
+    # exit()
 
-    sample_data, frame_sample_rate = librosa.load(audio_input_filename, mono=True, offset=frame_i*dt, duration=dt, sr=sample_rate)
+    #################################################################################
 
-    sample_stft = librosa.stft(sample_data, hop_length=samples_per_hop)
-    sample_spectrogram = np.abs(sample_stft)
-    sample_spectrogram_dB = librosa.amplitude_to_db(sample_spectrogram, ref=np.max)
+    px = 1/plt.rcParams['figure.dpi']  # pixel in inches
+    # frame_fig, frame_ax = plt.subplots(figsize=(1920*px, 1080*px))
+    frame_fig, frame_ax = plt.subplots(figsize=(512*px, 512*px))
 
-    # S = np.abs(librosa.stft(sample_data, n_fft=4096))**2    # n_fft=4096
-    # sample_chroma = librosa.feature.chroma_stft(S=S, sr=sample_rate)
+    frame_fig.set_facecolor('black')
+    axis_color = '#808080'
 
-    return sample_spectrogram_dB[20:,:] #  sample_chroma
+    # frame_ax.yaxis.label.set_color(axis_color)
+    # frame_ax.yaxis.label.set_fontsize('medium')
 
-#################
+    # frame_ax.tick_params(axis='y', colors=axis_color, labelsize='medium', )
+    # frame_ax.yaxis.grid(visible=True, color=axis_color, linewidth=0.5)
 
-frame_data_0 = compute_frame_spec(0)
+    #################
 
-frame_display = librosa.display.specshow(data=frame_data_0, x_axis='time', y_axis='log', sr=sample_rate, ax=frame_ax)
+    def compute_frame_spec(frame_i):
 
-frame_display.set_cmap("plasma")
+        sample_data, frame_sample_rate = librosa.load(audio_input_filename, mono=True, offset=frame_i*dt, duration=dt, sr=sample_rate)
 
-def frame_update(frame_i):
+        sample_stft = librosa.stft(sample_data, hop_length=samples_per_hop)
+        sample_spectrogram = np.abs(sample_stft)
+        sample_spectrogram_dB = librosa.amplitude_to_db(sample_spectrogram, ref=np.max)
 
-    frame_data_i = compute_frame_spec(frame_i)
+        # S = np.abs(librosa.stft(sample_data, n_fft=4096))**2    # n_fft=4096
+        # sample_chroma = librosa.feature.chroma_stft(S=S, sr=sample_rate)
 
-    frame_display.set_array(frame_data_i)
+        return sample_spectrogram_dB #[20:,:] #
 
-    print(str(frame_i) + '/' + str(num_frames))
+    #################
 
-    return
+    frame_data_0 = compute_frame_spec(0)
 
-#################################################################################
+    frame_display = librosa.display.specshow(data=frame_data_0, x_axis='time', y_axis='log', sr=sample_rate, ax=frame_ax)
 
-ani = animation.FuncAnimation(frame_fig, frame_update, frames=num_frames, repeat=False)
+    frame_display.set_cmap("plasma")
 
-if  SAVE_RENDER:
+    def frame_update(frame_i):
 
-    print("Rendering animation video ... ")
+        frame_data_i = compute_frame_spec(frame_i)
 
-    # Write video animation file
-    ani.save(video_output_filename, fps=fps)
-    plt.show(block=False)
-        
-    # Write audio sample file
-    print('Saving audio sample track ...')
-    soundfile.write(audio_output_filename, track_data, track_rate, format='wav', subtype='PCM_24')
+        frame_display.set_array(frame_data_i)
 
-    # Add audio track to video
-    print('Adding audio track to video ...')
-    subprocess.run(['ffmpeg', '-i', video_output_filename, '-i', audio_output_filename, '-c:v', 'copy', '-c:a', 'aac', av_output_filename, '-strict', '-2'])
+        print(str(frame_i) + '/' + str(num_frames))
 
-    # Delete temp video and audio track files
-    print('Cleaning up temp files ...')
-    os.remove(audio_output_filename)
-    # os.remove(video_output_filename)
+        return
 
-    # Open rendered video in default system app
-    subprocess.run(('xdg-open', av_output_filename))
+    #################################################################################
 
-else:
+    ani = animation.FuncAnimation(frame_fig, frame_update, frames=num_frames, repeat=False)
 
-    print("Displaying (not saving) animation ... ")
+    if  SAVE_RENDER:
 
-    plt.show()
+        print("Rendering animation video ... ")
+
+        # Write video animation file
+        ani.save(video_output_filename, fps=fps)
+        plt.show(block=False)
+            
+        # Write audio sample file
+        print('Saving audio sample track ...')
+        soundfile.write(audio_output_filename, track_data, track_rate, format='wav', subtype='PCM_24')
+
+        # Add audio track to video
+        print('Adding audio track to video ...')
+        subprocess.run(['ffmpeg', '-i', video_output_filename, '-i', audio_output_filename, '-c:v', 'copy', '-c:a', 'aac', av_output_filename, '-strict', '-2'])
+
+        # Delete temp video and audio track files
+        print('Cleaning up temp files ...')
+        os.remove(audio_output_filename)
+        # os.remove(video_output_filename)
+
+        # Open rendered video in default system app
+        # subprocess.run(('xdg-open', av_output_filename))
+
+    else:
+
+        print("Displaying (not saving) animation ... ")
+
+        plt.show()
 

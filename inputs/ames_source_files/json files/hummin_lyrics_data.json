@@ -1,0 +1,394 @@
+{
+    "track_name": "Hummin",
+    "version": 1.0,
+    "lyrics_data": [
+        {
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I've been wasting",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },        
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I've been wasting all my time",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "chasing chedder, losing light",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but something's changing",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but something's changing in my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 25.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I keep on humming, I can't stay quiet",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 30.0,
+            "duration": 5.0,
+            "lyrics_phrase": "because I won't hide",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 35.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "proud bouncing drum snare hits",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 40.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the things that spring from my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 45.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the things that spring from my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 50.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "proud bouncing drum snare hits",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 55.0,
+            "duration": 5.0,
+            "lyrics_phrase": "got me bugging, so I dipped out and rugged it",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 60.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I went to see the Dalai Lama just to hug him, but he told me my karma is fading",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 65.0,
+            "duration": 5.0,
+            "lyrics_phrase": "now I seek a better moment for my aching",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 70.0,
+            "duration": 5.0,
+            "lyrics_phrase": "give me space, give me black beans and patience",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 75.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I can't love you until I feel my cadence, catch the lilacs and braid them in my hair",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 80.0,
+            "duration": 5.0,
+            "lyrics_phrase": "never seek you never find, because I won't hide",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 85.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "popping bursts of color",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 90.0,
+            "duration": 5.0,
+            "lyrics_phrase": "because I won't hide the things that spring from my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 95.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the things that spring from my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 100.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "popping bursts of color marching drumming",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 105.0,
+            "duration": 5.0,
+            "lyrics_phrase": "draped in wonder",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 110.0,
+            "duration": 5.0,
+            "lyrics_phrase": "draped in wonder, bathed in light",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 115.0,
+            "duration": 5.0,
+            "lyrics_phrase": "draped in wonder, bathed in light, I do wander free from sight",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 120.0,
+            "duration": 5.0,
+            "lyrics_phrase": "hear the rhythms",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 125.0,
+            "duration": 5.0,
+            "lyrics_phrase": "naked I roam",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+
+        {
+            "timestamp": 130.0,
+            "duration": 5.0,
+            "lyrics_phrase": "naked I roam in love with all I find",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 135.0,
+            "duration": 5.0,
+            "lyrics_phrase": "because I won't hide",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 140.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "flamingos marching in step",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 145.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the things that spring from my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 150.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "flamingos marching in step, proud bouncing drum snare hits",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 155.0,
+            "duration": 5.0,
+            "lyrics_phrase": "got me hummin when I freak the marijuana, and I love it",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 160.0,
+            "duration": 5.0,
+            "lyrics_phrase": "paint a picture, a pattern, a poem",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 165.0,
+            "duration": 5.0,
+            "lyrics_phrase": "because I've found my voice in the madness, now I eat only what I can balance",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 170.0,
+            "duration": 5.0,
+            "lyrics_phrase": "give me face, give me fast food and daisies",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 175.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I can't love you until you seek me naked",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 180.0,
+            "duration": 5.0,
+            "lyrics_phrase": "catch the fireflies and braid them in my hair. you never seek, you'll never find.",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 185.0,
+            "duration": 5.0,
+            "lyrics_phrase": "because I won't hide",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 190.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "bombastic drums cymbals",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 195.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the things that spring from my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 200.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "bombastic drums cymbals, tambourine splashing textured",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 205.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bombastic drums cymbals, tambourine splashing textured, beautiful crescendo-ing finale",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 210.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "final spark",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        }
+    ]
+}

@@ -1,0 +1,429 @@
+{
+    "track_name": "Tiger Balm",
+    "version": 1.0,
+    "lyrics_data": [
+        {
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Tiger emerging, dark",
+            "note": "Title Card",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but I find when I sleep",
+            "aux_prompt": "sleeping on rocky beach",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "nectar sweet and the honey sweeter",
+            "aux_prompt": "pouring honey",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "from my lungs into the speaker",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I will follow my own lead down",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 25.0,
+            "duration": 5.0,
+            "lyrics_phrase": "to the river as I seek",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 30.0,
+            "duration": 5.0,
+            "lyrics_phrase": "let me sleep with thunder",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 35.0,
+            "duration": 5.0,
+            "lyrics_phrase": "keep me calm",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 40.0,
+            "duration": 5.0,
+            "lyrics_phrase": "spread your legs",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 45.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bloom in the gloom",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 50.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bloom in the gloom",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 55.0,
+            "duration": 5.0,
+            "lyrics_phrase": "feed me sweet bananas",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 60.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lead me through Havana",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 65.0,
+            "duration": 5.0,
+            "lyrics_phrase": "serpent's tongue",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 70.0,
+            "duration": 5.0,
+            "lyrics_phrase": "oh temptation abounds",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 75.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but I find when I sleep",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 80.0,
+            "duration": 5.0,
+            "lyrics_phrase": "melodies I sow & reap of",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 85.0,
+            "duration": 5.0,
+            "lyrics_phrase": "from my lungs into the speakers",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 90.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I will follow my own lead down",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 95.0,
+            "duration": 5.0,
+            "lyrics_phrase": "to the river as I seek ...",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 100.0,
+            "duration": 5.0,
+            "lyrics_phrase": "tiger melting",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 105.0,
+            "duration": 5.0,
+            "lyrics_phrase": "keep me calm",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 110.0,
+            "duration": 5.0,
+            "lyrics_phrase": "as the fates appear",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 115.0,
+            "duration": 5.0,
+            "lyrics_phrase": "in your fragrant flower",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 120.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bloom in the gloom",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 125.0,
+            "duration": 5.0,
+            "lyrics_phrase": "freaky male dancer - dark tone",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 130.0,
+            "duration": 5.0,
+            "lyrics_phrase": "shut my eyes",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 135.0,
+            "duration": 5.0,
+            "lyrics_phrase": "serpent's tongue",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 140.0,
+            "duration": 5.0,
+            "lyrics_phrase": "tells two different stories",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 145.0,
+            "duration": 5.0,
+            "lyrics_phrase": "hypnotic, gracious & proud",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 150.0,
+            "duration": 5.0,
+            "lyrics_phrase": "melodies I sow & reap of",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 155.0,
+            "duration": 5.0,
+            "lyrics_phrase": "honeycomb",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 160.0,
+            "duration": 5.0,
+            "lyrics_phrase": "tiger creeps into vegetation",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 165.0,
+            "duration": 5.0,
+            "lyrics_phrase": "to the river as I seek ...",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 170.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but I find when I sleep",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 175.0,
+            "duration": 5.0,
+            "lyrics_phrase": "melodies I sow & reap of",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 180.0,
+            "duration": 5.0,
+            "lyrics_phrase": "nectar sweet & the honey sweeter",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 185.0,
+            "duration": 5.0,
+            "lyrics_phrase": "tiger sleeping",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 190.0,
+            "duration": 5.0,
+            "lyrics_phrase": "to the river as I seek ...",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 195.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 200.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 205.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 210.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 215.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 220.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 225.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 230.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Mirage",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        }
+    ]
+}

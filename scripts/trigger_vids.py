@@ -2,36 +2,54 @@ import subprocess, os
 import asyncio
 import evdev
 from evdev import InputDevice, ecodes
+import time
+
+###################################################################
+# Setlist
+
+# Tiger Balm
+# Peacock
+# Groovin
+# Unblinking Eye
+# Hummin
+# Walk the Walk
+# The Governor's Dead
+# Cerulean Goodbye
+# Stir My Heart Awake 
+
+setlist = ['tiger_balm',
+           'peacock',
+           'groovin',
+           'unblinking_eye',
+           'hummin','walk_the_walk',b
+           'the_governors_dead',
+           'cerulean_goodbye',
+           'stir_my_heart_awake']
+
+tracks_dir = "/home/jd/devel/am_viz/inputs/track_dirs/"
+
+num_tracks = len(setlist)
+
+launch_delay_sec = 1.0
 
 ###################################################################
 
-orig_vid_files = []
-gen_ai_vid_files = []
-spec_vid_files = []
+def launch_vids(track_name):
 
-# track_i = 1
-orig_vid_files.append('outputs/tiger_balm/orig_vid.mp4')
-gen_ai_vid_files.append('outputs/tiger_balm/generated_video_4.avi')
-spec_vid_files.append('outputs/tiger_balm/spectrogram_video_1.mp4')
+    track_dir = tracks_dir + track_name + '/'
 
-# track_i = 2
-orig_vid_files.append('outputs/tiger_balm/spectrogram_video_1.mp4')
-gen_ai_vid_files.append('outputs/tiger_balm/spectrogram_video_1.mp4')
-spec_vid_files.append('outputs/tiger_balm/spectrogram_video_1.mp4')
+    # source_vid_file = track_dir + "source_vid_with_audio.mp4"b
 
-NUM_TRACKS = len(orig_vid_files)
+    source_vid_file = track_dir + "source_vid.mp4"
+    generated_vid_file = track_dir + "generated_vid.avi"
+    spectrogram_vid_file = track_dir + "spectrogram_vid.mp4"
 
-###################################################################
-
-# Open rendered video in default system app
-# subprocess.run("vlc '/home/jd/devel/am_viz/outputs/tiger_balm/tiger_balm_playlist.m3u'")
-
-def launch_vids(track_i):
+    time.sleep(launch_delay_sec)
 
     subprocess.run(["killall","vlc"])
-    subprocess.Popen(["vlc", orig_vid_files[track_i-1], "--fullscreen", "--aspect-ratio", "16:9", "--no-video-title-show", "--no-loop", "--qt-fullscreen-screennumber=1"])
-    subprocess.Popen(["vlc", gen_ai_vid_files[track_i-1], "--fullscreen", "--aspect-ratio", "16:9", "--no-video-title-show", "--no-loop", "--qt-fullscreen-screennumber=2"])
-    subprocess.Popen(["vlc", spec_vid_files[track_i-1], "--fullscreen", "--aspect-ratio", "16:9", "--no-video-title-show", "--no-loop", "--qt-fullscreen-screennumber=3"])
+    subprocess.Popen(["vlc", source_vid_file, "--fullscreen", "--aspect-ratio", "16:9", "--no-video-title-show", "--no-loop", "--qt-fullscreen-screennumber=1"])
+    subprocess.Popen(["vlc", generated_vid_file, "--fullscreen", "--aspect-ratio", "16:9", "--no-video-title-show", "--no-loop", "--qt-fullscreen-screennumber=2"])
+    subprocess.Popen(["vlc", spectrogram_vid_file, "--fullscreen", "--aspect-ratio", "16:9", "--no-video-title-show", "--no-loop", "--qt-fullscreen-screennumber=3"])
 
 
 ###################################################################
@@ -69,11 +87,13 @@ async def event_read_loop(device):
 
             if track_i < 1:
                 track_i = 1
-            elif track_i > NUM_TRACKS:
-                track_i = NUM_TRACKS
+            elif track_i > num_tracks:
+                track_i = num_tracks
 
-            print("Launching Videos Track: " + str(track_i))
-            launch_vids(track_i)
+            track_name = setlist[track_i - 1]
+            
+            print("Launching Videos Track: " + str(track_i) + ' - ' + track_name)
+            launch_vids(track_name)
 
 ###################################################################
 

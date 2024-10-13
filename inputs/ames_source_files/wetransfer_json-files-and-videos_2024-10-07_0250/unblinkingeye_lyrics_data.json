@@ -1,0 +1,468 @@
+{
+    "track_name": "The Unblinking Eye",
+    "version": 1.0,
+    "lyrics_data": [
+        {
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },        
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "eyes shut tight",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "in dreaming mind you wander free from sight",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "in dreaming mind you wander free from sight",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the waves approaching as you dance",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 25.0,
+            "duration": 5.0,
+            "lyrics_phrase": "silent in a trance",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 30.0,
+            "duration": 5.0,
+            "lyrics_phrase": "with barefeet wandering",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 35.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "dreamy footprints on the beach washed away by the water",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 40.0,
+            "duration": 5.0,
+            "lyrics_phrase": "won't you lead me?",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 45.0,
+            "duration": 5.0,
+            "lyrics_phrase": "senseless dreaming",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 50.0,
+            "duration": 5.0,
+            "lyrics_phrase": "into the hollows of my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 55.0,
+            "duration": 5.0,
+            "lyrics_phrase": "into the hollows of my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 60.0,
+            "duration": 5.0,
+            "lyrics_phrase": "let me follow hallowed dreaming",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 65.0,
+            "duration": 5.0,
+            "lyrics_phrase": "let me follow hallowed dreaming",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 70.0,
+            "duration": 5.0,
+            "lyrics_phrase": " find what we may find",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 75.0,
+            "duration": 5.0,
+            "lyrics_phrase": "blend the day and night",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 80.0,
+            "duration": 5.0,
+            "lyrics_phrase": "blend the day and night",
+            "aux_prompt": "dawn dusk morphing shadows ethereal",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 85.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "dancing shadows ethereal mystical spirits",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 90.0,
+            "duration": 5.0,
+            "lyrics_phrase": "amber moon",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 95.0,
+            "duration": 5.0,
+            "lyrics_phrase": "amber moon",
+            "aux_prompt": "unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 100.0,
+            "duration": 5.0,
+            "lyrics_phrase": "unblinking eye that hums that haunting tune",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 105.0,
+            "duration": 5.0,
+            "lyrics_phrase": "unblinking eye that hums that haunting tune",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 110.0,
+            "duration": 5.0,
+            "lyrics_phrase": "you sway in perfect harmony",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 115.0,
+            "duration": 5.0,
+            "lyrics_phrase": "flirting with the sea",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 120.0,
+            "duration": 5.0,
+            "lyrics_phrase": "flirting with the sea and it's dormant depths",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 125.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "murky depths of sea with rhythmic waves",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+
+        {
+            "timestamp": 130.0,
+            "duration": 5.0,
+            "lyrics_phrase": "far from land",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 135.0,
+            "duration": 5.0,
+            "lyrics_phrase": "in blackened bowels the mortal march began",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 140.0,
+            "duration": 5.0,
+            "lyrics_phrase": "in blackened bowels the mortal march began",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 145.0,
+            "duration": 5.0,
+            "lyrics_phrase": "advancing gravely to the shore",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 150.0,
+            "duration": 5.0,
+            "lyrics_phrase": "advancing gravely to the shore",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 155.0,
+            "duration": 5.0,
+            "lyrics_phrase": "one final roar",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 160.0,
+            "duration": 5.0,
+            "lyrics_phrase": "and then they are no more",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 165.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "following dreamscape surrealist dadaism",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 170.0,
+            "duration": 5.0,
+            "lyrics_phrase": "won't you lead me senseless dreaming?",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 175.0,
+            "duration": 5.0,
+            "lyrics_phrase": "won't you lead me senseless dreaming?",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 180.0,
+            "duration": 5.0,
+            "lyrics_phrase": "into the hollows",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 185.0,
+            "duration": 5.0,
+            "lyrics_phrase": "into the hollows of my mind",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 190.0,
+            "duration": 5.0,
+            "lyrics_phrase": "let me follow hallowed dreaming",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 195.0,
+            "duration": 5.0,
+            "lyrics_phrase": "let me follow hallowed dreaming",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 200.0,
+            "duration": 5.0,
+            "lyrics_phrase": "find what we may find",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 205.0,
+            "duration": 5.0,
+            "lyrics_phrase": "blend the day and night",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 210.0,
+            "duration": 5.0,
+            "lyrics_phrase": "blend the day and night",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 215.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 220.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 225.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 230.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 235.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 240.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 245.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 250.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "the unblinking eye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        }
+
+
+    ]
+}

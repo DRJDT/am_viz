@@ -1,5 +1,7 @@
 .venv/
-outputs/
 *.png
+*.mp3
+*.wav
 *.mp4
+*.avi
 *.swp

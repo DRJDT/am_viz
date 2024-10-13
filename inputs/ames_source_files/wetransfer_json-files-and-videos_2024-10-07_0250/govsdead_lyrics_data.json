@@ -1,0 +1,277 @@
+{
+    "track_name": "The Governor's Dead",
+    "version": 1.0,
+    "lyrics_data": [
+        {
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "scratchy distorted record radio vintage noise",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },        
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "oh the Governor's dead, yeah the Governor's dead my boy!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "shot him in the head, now the Governor's dead",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "oh the Governor's dead, yeah the Governor's dead my boy! shot him in his bed, now the Governor's dead",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "well i want to be the one that love's you baby",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 25.0,
+            "duration": 5.0,
+            "lyrics_phrase": ", I do!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 30.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but I've done something that you may think is crazy",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 35.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I do!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 40.0,
+            "duration": 5.0,
+            "lyrics_phrase": "oh the Governor's dead, yeah the Governor's dead my boy!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 45.0,
+            "duration": 5.0,
+            "lyrics_phrase": "shot him in the head, now the Governor's dead",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 50.0,
+            "duration": 5.0,
+            "lyrics_phrase": "oh the Governor's dead, yeah the Governor's dead my boy!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 55.0,
+            "duration": 5.0,
+            "lyrics_phrase": "shot him in his bed, now the Governor's dead",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 60.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I do not know, who would have done such a thing!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 65.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I do not know, who would have want to hurt that man",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 70.0,
+            "duration": 5.0,
+            "lyrics_phrase": "times they are tough, we don't have much anything",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 75.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but we are above, that kind of a killing sort of thing",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 80.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "ethereal tropical dreamscape",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 85.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "ethereal tropical dreamscape floating and morphing ink",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 90.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "ethereal tropical dreamscape floating and morphing ink ghostly jungle animals",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 95.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "ethereal tropical dreamscape floating and morphing ink ghostly jungle animals dancing ritual sacrifice",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 100.0,
+            "duration": 5.0,
+            "lyrics_phrase": "well i want to be the one that love's you, baby",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 105.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I do!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 110.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but I've done something that you may think is crazy... I do!",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 115.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "slow motion burning conflagration houses night time",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 120.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "slow motion burning conflagration houses night time crowd watching destruction",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 125.0,
+            "duration": 5.0,
+            "lyrics_phrase": "oh the Governor's dead",
+            "aux_prompt": "awake from silence",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+
+        {
+            "timestamp": 130.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "yeah the Governor's dead, my boy! Shot him in his head",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 135.0,
+            "duration": 5.0,
+            "lyrics_phrase": "now the Governor's dead. Oh the Governor's dead",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 140.0,
+            "duration": 5.0,
+            "lyrics_phrase": "yeah the Governor's dead my boy. Shot him in his bed",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 145.0,
+            "duration": 5.0,
+            "lyrics_phrase": "now the Governor's dead.",
+            "aux_prompt": "The End",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        }
+    ]
+}

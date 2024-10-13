@@ -1,0 +1,431 @@
+{
+    "track_name": "Groovin'",
+    "version": 1.0,
+    "lyrics_data": [
+        {
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "chill cimenatic desert landscape view from car window",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },        
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "chill cimenatic desert landscape view from car window, cactuses and rocks roll by",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "chill cimenatic desert landscape view from car window, cactuses and rocks roll by, objects melt together",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lil mama I'm groovin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I'm groovin', stereo boomin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 25.0,
+            "duration": 5.0,
+            "lyrics_phrase": "your melody got me cruisin', sweet like it's bloomin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 30.0,
+            "duration": 5.0,
+            "lyrics_phrase": "from my dawn to your daylight",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 35.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "from my lips don't they taste like, peachy poems I savor",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 40.0,
+            "duration": 5.0,
+            "lyrics_phrase": "plant my seed and I'll stay here, I'll stay",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 45.0,
+            "duration": 5.0,
+            "lyrics_phrase": "because mama I'm groovin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 50.0,
+            "duration": 5.0,
+            "lyrics_phrase": "stereo boomin', your melody got me cruisin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 55.0,
+            "duration": 5.0,
+            "lyrics_phrase": "sweet like it's bloomin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 60.0,
+            "duration": 5.0,
+            "lyrics_phrase": "from the quivering quiet",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 65.0,
+            "duration": 5.0,
+            "lyrics_phrase": "from the rivers we're riding",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 70.0,
+            "duration": 5.0,
+            "lyrics_phrase": "skinny dipping in silence",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 75.0,
+            "duration": 5.0,
+            "lyrics_phrase": "swim with me and I'll stay here, I'll stay",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 80.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "single firefly with a trail of light behind it",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 85.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "two dancing fireflies with intertwining trails of light",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 90.0,
+            "duration": 5.0,
+            "lyrics_phrase": "so lover let's move slow, turn them lights down low",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 95.0,
+            "duration": 5.0,
+            "lyrics_phrase": "tongue tied we will follow",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 100.0,
+            "duration": 5.0,
+            "lyrics_phrase": "wherever your mind goes",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 105.0,
+            "duration": 5.0,
+            "lyrics_phrase": "speak your name like its sacred",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 110.0,
+            "duration": 5.0,
+            "lyrics_phrase": "speak your words when they're naked, skin dimpled and fragrant",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 115.0,
+            "duration": 5.0,
+            "lyrics_phrase": "set me free and I'll stay here, I'll stay",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 120.0,
+            "duration": 5.0,
+            "lyrics_phrase": "because mama I'm groovin', stereo boomin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 125.0,
+            "duration": 5.0,
+            "lyrics_phrase": "your melody got me cruisin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+
+        {
+            "timestamp": 130.0,
+            "duration": 5.0,
+            "lyrics_phrase": "your melody got me cruisin', sweet like it's bloomin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 135.0,
+            "duration": 5.0,
+            "lyrics_phrase": "from my dawn to your daylight, from my lips don't they taste like...",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 140.0,
+            "duration": 5.0,
+            "lyrics_phrase": "peachy poems I savor",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 145.0,
+            "duration": 5.0,
+            "lyrics_phrase": "plant my seed and I'll stay here, I'll stay",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 150.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I'll stay but still some times I know you won't believe it",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 155.0,
+            "duration": 5.0,
+            "lyrics_phrase": "I'll stay but still some times I know you won't believe it",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 160.0,
+            "duration": 5.0,
+            "lyrics_phrase": "in time I pray you finally know that I ain't leavin'",
+            "aux_prompt": "",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": false
+        },
+        {
+            "timestamp": 165.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "pixelated nighttime black and blue cityscape, viewed from a fast moving car",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 170.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "pixelated nighttime black and blue countryside, viewed from a fast moving train",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 175.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "pixelated nighttime black and blue industrial landscape, viewed from a fast moving plane",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 180.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "fast moving nighttime forms rushing by",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 185.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "fast moving nighttime forms rushing by, morphing and disappearing",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 190.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "fast moving nighttime forms rushing by, morphing and disappearing, dark blues and blacks",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 195.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Joshua Tree surrealist landscape viewed from a car window",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 200.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Joshua Tree surrealist landscape viewed from a car window with saturated colors",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 205.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "Joshua Tree surrealist landscape viewed from a car window, with saturated colors, and objects transforming and morphing",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 210.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "desert landscape growing and transforming, in reverse",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 215.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "desert landscape growing and transforming, in reverse, with saturated colors",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 220.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "desert landscape growing and transforming, in reverse, with saturated colors, bright fruits and flowers expanding",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 225.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "desert landscape growing and transforming, in reverse, with saturated colors, bright fruits and flowers expanding",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 230.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "desert landscape growing and transforming, in reverse, with saturated colors, bright fruits and flowers expanding",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        }
+
+    ]
+}

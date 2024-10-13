@@ -1,0 +1,495 @@
+{
+    "track_name": "Cerulean Goodbye",
+    "version": 1.0,
+    "lyrics_data": [
+        { 
+            "timestamp": 0.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },        
+        {
+            "timestamp": 5.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "tiny shimmering ocean desert blue beauty",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 10.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "tiny shimmering ocean desert blue beauty undulating noise flowing",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 15.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "tiny shimmering ocean desert blue beauty undulating noise flowing rhythmic pulses",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 20.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "massive shimmering ocean desert blue beauty undulating noise flowing rhythmic pulses",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 25.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "massive shimmering ocean desert blue beauty undulating noise flowing rhythmic pulses butterfly effect",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 30.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "massive shimmering ocean desert blue beauty undulating noise flowing rhythmic pulses butterfly effect expanding beauty",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 35.0,
+            "duration": 5.0,
+            "lyrics_phrase": "sorry to say I can't be the one for you",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 40.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but starting today I'm on the way forward",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 45.0,
+            "duration": 5.0,
+            "lyrics_phrase": "but starting today I'm on the way forward",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 50.0,
+            "duration": 5.0,
+            "lyrics_phrase": "happen what may but I really can't ignore the...",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 55.0,
+            "duration": 5.0,
+            "lyrics_phrase": "happen what may but I really can't ignore the...",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 60.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the promise of Babylon",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 65.0,
+            "duration": 5.0,
+            "lyrics_phrase": "Say what you will, but I really did adore you!",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 70.0,
+            "duration": 5.0,
+            "lyrics_phrase": "Say what you will, but I really did adore ya!",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 75.0,
+            "duration": 5.0,
+            "lyrics_phrase": "But I always knew there would be another for ya",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 80.0,
+            "duration": 5.0,
+            "lyrics_phrase": "somebody who would love you more than the promise...",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 85.0,
+            "duration": 5.0,
+            "lyrics_phrase": "somebody who would love you more than the promise...",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 90.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the promise of Babylon",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 95.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the promise of Babylon",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 100.0,
+            "duration": 5.0,
+            "lyrics_phrase": "the promise...",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 105.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 110.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "blue desert western-style lone horseman undulating",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 115.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "blue desert western-style lone horseman undulating dream-like romantic",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 120.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "blue desert western-style lone horseman undulating dream-like romantic growing",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 125.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "blue desert western-style lone horseman undulating dream-like romantic growing vines around hooves",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+
+        {
+            "timestamp": 130.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "blue desert western-style lone horseman undulating dream-like romantic growing vines around hooves dunes like waves and flames",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 135.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "blue desert western-style lone horseman undulating dream-like romantic growing vines around hooves dunes like waves and flames",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 140.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "lone person falling",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 145.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "lone person falling slow motion through blue sky",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 150.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "lone person falling slow motion through blue sky and billowing clouds",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 155.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "lone person falling slow motion through blue sky and billowing clouds morphing growing li symmetry",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 160.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "lone person falling slow motion through blue sky and billowing clouds morphing growing li symmetry body disintegrating into points",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 165.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "lone person falling slow motion through blue sky and billowing clouds morphing growing li symmetry body disintegrating into points",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 170.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "abstract crescendo points expanding beauty glowing",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 175.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bye bye my lover",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 180.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bye bye my friend",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 185.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bye bye my lover bye bye my friend",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 190.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lost I'll discover",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 195.0,
+            "duration": 5.0,
+            "lyrics_phrase": "where I begin",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 200.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lost I'll discover, where I begin",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 205.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bye bye my lover",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 210.0,
+            "duration": 5.0,
+            "lyrics_phrase": "bye bye my friend",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 215.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lost I'll discover",
+            "aux_prompt": "cerulean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 220.0,
+            "duration": 5.0,
+            "lyrics_phrase": "where it all ends",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 225.0,
+            "duration": 5.0,
+            "lyrics_phrase": "lost I'll discover where it all ends",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": true,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 230.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 235.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 240.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 245.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 250.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 255.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 260.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        },
+        {
+            "timestamp": 265.0,
+            "duration": 5.0,
+            "lyrics_phrase": "",
+            "aux_prompt": "cerluean goodbye",
+            "note": "",
+            "use_lyrics_as_prompt": false,
+            "use_aux_prompt": true
+        }
+
+
+    ]
+}
