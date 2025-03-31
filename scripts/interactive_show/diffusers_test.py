@@ -12,7 +12,7 @@ from IPython.display import display
 
 output_dir = "/home/jd/Software/diffusers/outputs/"
 
-prompt = "photograph of an astronaut riding a horse"
+prompt = "flower blooming"
 
 img_path = output_dir + "_".join(prompt.split()) 
 
@@ -28,7 +28,7 @@ scheduler = UniPCMultistepScheduler.from_pretrained(repo_id, subfolder="schedule
 
 ################################################################################
 
-torch_device = "cpu" # "cuda"
+torch_device = "cuda" # cuda | cpu
 vae.to(torch_device)
 text_encoder.to(torch_device)
 unet.to(torch_device)
@@ -39,7 +39,7 @@ height = 512  # default height of Stable Diffusion
 width = 512  # default width of Stable Diffusion
 num_inference_steps = 25  # Number of denoising steps
 guidance_scale = 7.5  # Scale for classifier-free guidance
-generator = torch.manual_seed(0)  # Seed generator to create the initial latent noise
+generator = torch.Generator(device='cuda') #, torch.manual_seed(0)  # Seed generator to create the initial latent noise
 batch_size = 1
 
 ################################################################################
@@ -87,41 +87,41 @@ text_embeddings = torch.cat([uncond_embeddings, text_embeddings])
 ###############################################################################
 # text2img pipeline
 
-# latents = torch.randn(
-#     (batch_size, unet.config.in_channels, height // 8, width // 8),
-#     generator=generator,
-#     device=torch_device,
-# )
+latents = torch.randn(
+    (batch_size, unet.config.in_channels, height // 8, width // 8),
+    generator=generator,
+    device=torch_device,
+)
 
-# latents = latents * scheduler.init_noise_sigma
+latents = latents * scheduler.init_noise_sigma
 
-# ###############################################################################
+###############################################################################
 
-# scheduler.set_timesteps(num_inference_steps)
+scheduler.set_timesteps(num_inference_steps)
 
-# for i, t in enumerate(tqdm.tqdm(scheduler.timesteps)):
+for i, t in enumerate(tqdm.tqdm(scheduler.timesteps)):
 
-#     # expand the latents if we are doing classifier-free guidance to avoid doing two forward passes.
-#     latent_model_input = torch.cat([latents] * 2)
+    # expand the latents if we are doing classifier-free guidance to avoid doing two forward passes.
+    latent_model_input = torch.cat([latents] * 2)
 
-#     latent_model_input = scheduler.scale_model_input(latent_model_input, timestep=t)
+    latent_model_input = scheduler.scale_model_input(latent_model_input, timestep=t)
 
-#     # predict the noise residual
-#     with torch.no_grad():
-#         noise_pred = unet(latent_model_input, t, encoder_hidden_states=text_embeddings).sample
+    # predict the noise residual
+    with torch.no_grad():
+        noise_pred = unet(latent_model_input, t, encoder_hidden_states=text_embeddings).sample
 
-#     # perform guidance
-#     noise_pred_uncond, noise_pred_text = noise_pred.chunk(2)
-#     noise_pred = noise_pred_uncond + guidance_scale * (noise_pred_text - noise_pred_uncond)
+    # perform guidance
+    noise_pred_uncond, noise_pred_text = noise_pred.chunk(2)
+    noise_pred = noise_pred_uncond + guidance_scale * (noise_pred_text - noise_pred_uncond)
 
-#     # compute the previous noisy sample x_t -> x_t-1
-#     latents = scheduler.step(noise_pred, t, latents).prev_sample
+    # compute the previous noisy sample x_t -> x_t-1
+    latents = scheduler.step(noise_pred, t, latents).prev_sample
 
-#     # scale and decode the image latents with vae
-#     with torch.no_grad():
-#         sample_image = vae.decode((1 / 0.18215) * latents).sample
+    # scale and decode the image latents with vae
+    with torch.no_grad():
+        sample_image = vae.decode((1 / 0.18215) * latents).sample
 
-#     save_sample(sample_image, img_path + "_step_" + str(i) + ".png")
+    save_sample(sample_image, img_path + "_step_" + str(i) + ".png")
 
 
 ###############################################################################
