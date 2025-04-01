@@ -2,11 +2,12 @@ import torch
 import requests
 import torch.nn as nn
 import torch.nn.functional as F
-from PIL import Image
+from PIL import Image, ImageOps
 from io import BytesIO
 from tqdm.auto import tqdm
 from matplotlib import pyplot as plt
-# import numpy as np
+import numpy as np
+from scipy.ndimage import shift
 from torchvision import transforms as tfms
 from diffusers import StableDiffusionPipeline, DDIMScheduler
 
@@ -186,15 +187,25 @@ if  __name__ == "__main__":
     #     (256, 256)
     # )
 
-    num_inference_steps = 25
+    num_inference_steps = 50
     start_step = int(0.4*num_inference_steps)
 
-    guidance_scale = 3.5
+    guidance_scale = 7.0
 
-    input_image = load_image("https://images.pexels.com/photos/8306128/pexels-photo-8306128.jpeg", size=(512, 512))
+    # input_image = load_image("https://images.pexels.com/photos/8306128/pexels-photo-8306128.jpeg", size=(512, 512))
 
-    input_image_prompt = "Photograph of a puppy on the grass"
-    inverted_image_prompt = "Photograph of a capybara on the grass"
+    # input_image_prompt = "Photograph of a puppy on the grass"
+    # output_image_prompt = "Photograph of a capybara on the grass"
+
+    input_image = Image.open("/home/jd/src/am_viz/data/interactive_data/blue_flower_1.png")
+
+    input_image = input_image.resize((512, 512))
+
+    # input_image = ImageOps.pad(input_image,(1024, 1024))
+    # input_image = input_image.resize((512, 512))
+
+    input_image_prompt = "Blue Flower Blooming"
+    output_image_prompt = "Blue Flower Blooming"
 
     plt.figure(1)
     plt.imshow(input_image)
@@ -219,9 +230,30 @@ if  __name__ == "__main__":
         for i in range(num_inference_steps):
             input_latent_images.append(pipe.numpy_to_pil(pipe.decode_latents(inverted_latents[i].unsqueeze(0)))[0])
 
+        start_latents=inverted_latents[-(start_step + 1)]
+
+        print(f"start_latents.shape={start_latents.shape}")
+
+        start_latents_np = start_latents.cpu().numpy()
+
+        vert_axis = 1
+        horz_axis = 2
+
+        vert_rel_frame_motion = 0.1
+        horz_rel_frame_motion = 0.1
+
+        # start_latentss_np = np.roll(start_latents_np,int(vert_rel_frame_motion * 64),axis=vert_axis)
+        # start_latentss_np = np.roll(start_latents_np,int(horz_rel_frame_motion * 64),axis=horz_axis)
+
+        start_latents_np = shift(start_latents_np,(0,int(vert_rel_frame_motion * 64),int(horz_rel_frame_motion * 64)),cval=0.0)
+
+        start_latents_np[0,:,:] = start_latents_np[0,:,:] + 0.1
+
+        start_latents = torch.from_numpy(start_latents_np).to(device)
+
         output_latents = sample(
-            inverted_image_prompt, 
-            start_latents=inverted_latents[-(start_step + 1)][None], 
+            output_image_prompt, 
+            start_latents=start_latents[None], 
             start_step=start_step,
             num_inference_steps=num_inference_steps, 
             guidance_scale=guidance_scale)
@@ -238,7 +270,7 @@ if  __name__ == "__main__":
 
     # Create a figure and a grid of subplots
     # plt.figure(3)
-    fig, axes = plt.subplots(nrows=5, ncols=5)
+    fig, axes = plt.subplots(nrows=5, ncols=num_inference_steps // 5)
 
     axes = axes.flatten()                     
     num_ax = len(axes)
@@ -251,7 +283,7 @@ if  __name__ == "__main__":
 
     ###
     #  
-    fig, axes = plt.subplots(nrows=3, ncols=5)
+    fig, axes = plt.subplots(nrows=5, ncols=num_inference_steps // 5)
 
     axes = axes.flatten()                     
     num_ax = len(axes)
