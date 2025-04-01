@@ -27,8 +27,8 @@ pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
 # Set up a DDIM scheduler
 pipe.scheduler = DDIMScheduler.from_config(pipe.scheduler.config)
 
-
 # Sample function (regular DDIM)
+# Subtract noise using trained network
 @torch.no_grad()
 def sample(
     prompt,
@@ -57,6 +57,10 @@ def sample(
 
     latents = start_latents.clone()
 
+    # We'll keep a list of the inverted latents as the process goes on
+    intermediate_latents = []
+    intermediate_latents.append(latents)
+
     for i in tqdm(range(start_step, num_inference_steps)):
 
         t = pipe.scheduler.timesteps[i]
@@ -84,11 +88,16 @@ def sample(
         direction_pointing_to_xt = (1 - alpha_t_prev).sqrt() * noise_pred
         latents = alpha_t_prev.sqrt() * predicted_x0 + direction_pointing_to_xt
 
-    # Post-processing
-    images = pipe.decode_latents(latents)
-    images = pipe.numpy_to_pil(images)
+        # Store
+        intermediate_latents.append(latents)
 
-    return images
+    return torch.cat(intermediate_latents)
+
+    # # Post-processing
+    # images = pipe.decode_latents(latents)
+    # images = pipe.numpy_to_pil(images)
+
+    # return images
 
 # Sample function (regular DDIM)
 @torch.no_grad()
@@ -98,10 +107,14 @@ def encode_image(
 ):
 
     latent = pipe.vae.encode(tfms.functional.to_tensor(input_image).unsqueeze(0).to(device) * 2 - 1)
+    # Magic number from https://github.com/huggingface/diffusers/issues/437
     return 0.18215 * latent.latent_dist.sample()
+
+    # pipe.vae.postprocess(...)
 
 
 ## Inversion
+# Add noise from to reference image
 @torch.no_grad()
 def invert(
     start_latents,
@@ -124,18 +137,16 @@ def invert(
 
     # We'll keep a list of the inverted latents as the process goes on
     intermediate_latents = []
+    intermediate_latents.append(latents)
 
     # Set num inference steps
     pipe.scheduler.set_timesteps(num_inference_steps, device=device)
 
     # Reversed timesteps <<<<<<<<<<<<<<<<<<<<
+    # Timesteps defined from 
     timesteps = reversed(pipe.scheduler.timesteps)
 
-    for i in tqdm(range(1, num_inference_steps), total=num_inference_steps - 1):
-
-        # We'll skip the final iteration
-        if i >= num_inference_steps - 1:
-            continue
+    for i in tqdm(range(1, num_inference_steps)):
 
         t = timesteps[i]
 
@@ -175,18 +186,18 @@ if  __name__ == "__main__":
     #     (256, 256)
     # )
 
-    num_inference_steps = 50
-    start_step = 20
+    num_inference_steps = 25
+    start_step = int(0.4*num_inference_steps)
 
     guidance_scale = 3.5
 
     input_image = load_image("https://images.pexels.com/photos/8306128/pexels-photo-8306128.jpeg", size=(512, 512))
 
-    plt.figure(1)
-    plt.imshow(input_image)
-
     input_image_prompt = "Photograph of a puppy on the grass"
     inverted_image_prompt = "Photograph of a capybara on the grass"
+
+    plt.figure(1)
+    plt.imshow(input_image)
 
     input_image_latents = encode_image(input_image)
 
@@ -204,34 +215,50 @@ if  __name__ == "__main__":
 
     with torch.no_grad():
 
-        start_latent_image = pipe.numpy_to_pil(pipe.decode_latents(inverted_latents[-1].unsqueeze(0)))[0]
-
-        # inverted_images = sample(
-        #     inverted_image_prompt, 
-        #     start_latents=inverted_latents[-(start_step + 1)][None], 
-        #     start_step=start_step,
-        #     num_inference_steps=num_inference_steps, 
-        #     guidance_scale=guidance_scale)
-
         input_latent_images = []
-        for i in range(len(inverted_latents)):
-            input_latent_images.append(pipe.numpy_to_pil(pipe.decode_latents(inverted_latents[-i-1].unsqueeze(0)))[0])
-        
-    plt.figure(2)
-    plt.imshow(start_latent_image)
+        for i in range(num_inference_steps):
+            input_latent_images.append(pipe.numpy_to_pil(pipe.decode_latents(inverted_latents[i].unsqueeze(0)))[0])
 
-    # plt.figure(3)
-    # plt.imshow(inverted_images[0])
+        output_latents = sample(
+            inverted_image_prompt, 
+            start_latents=inverted_latents[-(start_step + 1)][None], 
+            start_step=start_step,
+            num_inference_steps=num_inference_steps, 
+            guidance_scale=guidance_scale)
+        
+        output_latent_images = []
+        for i in range(num_inference_steps-start_step):
+            output_latent_images.append(pipe.numpy_to_pil(pipe.decode_latents(output_latents[i].unsqueeze(0)))[0])
+        
+
+    final_output_image = output_latent_images[-1]
+
+    plt.figure(2)
+    plt.imshow(final_output_image)
 
     # Create a figure and a grid of subplots
-    plt.figure(3)
-    fig, axes = plt.subplots(nrows=5, ncols=10)
-    plt.axis('off')
+    # plt.figure(3)
+    fig, axes = plt.subplots(nrows=5, ncols=5)
 
     axes = axes.flatten()                     
-    for i in range(len(input_latent_images)):
+    num_ax = len(axes)
 
-        axes[i].imshow(input_latent_images[i])
+    for ai,i in enumerate(range(0,num_inference_steps,num_inference_steps // num_ax)):
+
+        axes[ai].imshow(input_latent_images[i])
+        axes[ai].set_axis_off()
+
+
+    ###
+    #  
+    fig, axes = plt.subplots(nrows=3, ncols=5)
+
+    axes = axes.flatten()                     
+    num_ax = len(axes)
+
+    for i in range(0,num_inference_steps-start_step):
+
+        axes[i].imshow(output_latent_images[i])
         axes[i].set_axis_off()
 
 
